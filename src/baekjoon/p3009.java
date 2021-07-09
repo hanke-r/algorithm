@@ -1,0 +1,38 @@
+package baekjoon;
+
+import java.util.Scanner;
+
+public class p3009 {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        int c = sc.nextInt();
+        int d = sc.nextInt();
+
+        int e = sc.nextInt();
+        int f = sc.nextInt();
+
+        int x = a;
+        int y = b;
+
+        if(x == c){
+            x = e;
+        } else if (x == e){
+            x = c;
+        }
+
+        if(y == d){
+            y = f;
+        } else if(y == f){
+            y = d;
+        }
+
+        System.out.println(x + " " + y);
+
+    }
+
+}
