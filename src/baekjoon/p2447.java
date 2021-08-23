@@ -11,7 +11,7 @@ public class p2447 {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         int n = Integer.parseInt(bf.readLine());
-ㄴ
+
 
         for(int i = 0 ; i < n ; i++){
             for (int j = 0 ; j < n ; j++){
